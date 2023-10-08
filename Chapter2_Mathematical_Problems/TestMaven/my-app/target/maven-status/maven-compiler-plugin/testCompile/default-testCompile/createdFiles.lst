@@ -1,2 +1,5 @@
-BasicArithmetic/CalcTest.class
-Statistics/CalcSumAndCountAllNumbersDivBy_2_Or_7Test.class
+UNIR/app/BasicArithmetic/isEvenOrOddTest.class
+UNIR/app/NumbersAsText/NumbersAsTextTest.class
+UNIR/app/BasicArithmetic/CalcSumAndCountAllNumbersDivBy_2_Or_7Test.class
+UNIR/app/BasicArithmetic/CalcTest.class
+UNIR/app/PerfectNumbers/NumbersAsTextTest.class
