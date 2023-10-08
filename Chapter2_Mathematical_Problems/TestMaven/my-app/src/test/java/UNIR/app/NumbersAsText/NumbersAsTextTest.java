@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Ex_02_NumbersAsTextTest {
+public class NumbersAsTextTest {
 
     private NumbersAsText numbersAsText; // Declare an instance variable for the NumbersAsText class
 
