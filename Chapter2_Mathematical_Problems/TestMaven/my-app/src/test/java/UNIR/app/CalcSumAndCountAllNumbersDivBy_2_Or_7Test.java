@@ -22,7 +22,5 @@ public class CalcSumAndCountAllNumbersDivBy_2_Or_7Test {
 
         assertEquals(2, result3.getSum());
         assertEquals(1, result3.getLength());
-
     }
-
 }
