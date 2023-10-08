@@ -1,4 +1,4 @@
-package Statistics;
+package UNIR.app.BasicArithmetic;
 
 import java.util.ArrayList;
 

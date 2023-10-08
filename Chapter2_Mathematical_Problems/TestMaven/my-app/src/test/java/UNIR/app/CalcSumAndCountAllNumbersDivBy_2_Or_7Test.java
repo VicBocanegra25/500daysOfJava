@@ -1,26 +1,34 @@
-package Statistics;
+package UNIR.app.BasicArithmetic;
 
 import org.junit.jupiter.api.Test;
-
+import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalcSumAndCountAllNumbersDivBy_2_Or_7Test {
 
     @Test
     public void testCalcSumAndCountAllNumbersDivBy_2_Or_7_Tuple() {
-        CalcSumAndCountAllNumbersDivBy_2_Or_7 calc = new CalcSumAndCountAllNumbersDivBy_2_Or_7();
-        Result result = calc.calcSumAndCountAllNumbersDivBy_2_Or_7_Tuple(15);
-        Result result2 = calc.calcSumAndCountAllNumbersDivBy_2_Or_7_Tuple(8);
-        Result result3 = calc.calcSumAndCountAllNumbersDivBy_2_Or_7_Tuple(3);
+        BasicArithmetic evaluate = new BasicArithmetic();
 
-        // Check if the sum and length are correct
-        assertEquals(63, result.getSum()); // 63 is correct
-        assertEquals(8, result.getLength());
+        // Test case 1
+        Result result1 = evaluate.calcSumAndCountAllNumbersDivBy_2_Or_7_Tuple(15);
+        assertAll("TestCase1 - Check sum and length",
+                () -> assertEquals(63, result1.getSum()),
+                () -> assertEquals(8, result1.getLength())
+        );
 
-        assertEquals(19, result2.getSum());
-        assertEquals(4, result2.getLength());
+        // Test case 2
+        Result result2 = evaluate.calcSumAndCountAllNumbersDivBy_2_Or_7_Tuple(8);
+        assertAll("TestCase2 - Check sum and length",
+                () -> assertEquals(19, result2.getSum()),
+                () -> assertEquals(4, result2.getLength())
+        );
 
-        assertEquals(2, result3.getSum());
-        assertEquals(1, result3.getLength());
+        // Test case 3
+        Result result3 = evaluate.calcSumAndCountAllNumbersDivBy_2_Or_7_Tuple(3);
+        assertAll("TestCase3 - Check sum and length",
+                () -> assertEquals(2, result3.getSum()),
+                () -> assertEquals(1, result3.getLength())
+        );
     }
 }

@@ -1,4 +1,4 @@
-package Statistics;
+package BasicArithmetic;
 
 import java.util.ArrayList;
 

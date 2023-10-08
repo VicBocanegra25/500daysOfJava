@@ -1,15 +1,19 @@
-plugins {
-    id 'java'
-}
+apply plugin: 'java'
 
+group = 'UNIR.app'
+version = '1.0-SNAPSHOT'
+
+description = """my-app"""
+java {
+    sourceCompatibility = 11
+    targetCompatibility = 11
+}
 repositories {
-    mavenCentral()
+    mavenCentral()  // This replaces the need for the 'maven' plugin for fetching dependencies
 }
 
 dependencies {
-    // JUnit Jupiter API for writing tests
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    // JUnit Jupiter Engine for running tests
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
 

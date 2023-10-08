@@ -1,5 +1,5 @@
-import Statistics.CalcSumAndCountAllNumbersDivBy_2_Or_7;
-import Statistics.Result;
+import BasicArithmetic.CalcSumAndCountAllNumbersDivBy_2_Or_7;
+import BasicArithmetic.Result;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,5 +13,14 @@ public class Main {
 
         // Printing the sum, and the length of the list
         System.out.println("Length: " + result.getLength() + " Sum: " + result.getSum());
+
+        // Testing BasicCalc
+        BasicArithmetic.Calc calc = new BasicArithmetic.Calc();
+        // Testing method calc()
+        System.out.println(calc.calc(6, 7));
+        System.out.println(calc.calc(3, 4));
+        System.out.println(calc.calc(5, 5));
+
+
     }
 }
