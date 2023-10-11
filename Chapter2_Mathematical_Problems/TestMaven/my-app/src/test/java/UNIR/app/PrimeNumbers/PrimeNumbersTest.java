@@ -23,7 +23,7 @@ public class PrimeNumbersTest {
     }
 
     /**
-     * Provides test cases for perfect number evaluation.
+     * Provides test cases for prime number evaluation.
      */
     private static Stream<Object[]> primeNumbersTestCases() {
         return Stream.of(
