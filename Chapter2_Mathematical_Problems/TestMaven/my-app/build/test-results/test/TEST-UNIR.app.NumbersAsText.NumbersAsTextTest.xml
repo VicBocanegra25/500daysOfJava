@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UNIR.app.NumbersAsText.NumbersAsTextTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-08T15:14:19" hostname="vicbocanegra-virtual-machine" time="0.002">
+<testsuite name="UNIR.app.NumbersAsText.NumbersAsTextTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-08T19:33:11" hostname="vicbocanegra-virtual-machine" time="0.001">
   <properties/>
-  <testcase name="testNumberAsText()" classname="UNIR.app.NumbersAsText.NumbersAsTextTest" time="0.002"/>
+  <testcase name="testNumberAsText()" classname="UNIR.app.NumbersAsText.NumbersAsTextTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

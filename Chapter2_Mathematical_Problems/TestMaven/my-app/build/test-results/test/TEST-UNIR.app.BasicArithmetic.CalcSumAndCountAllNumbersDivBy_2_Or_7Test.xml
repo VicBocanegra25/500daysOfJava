@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UNIR.app.BasicArithmetic.CalcSumAndCountAllNumbersDivBy_2_Or_7Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-08T15:14:19" hostname="vicbocanegra-virtual-machine" time="0.015">
+<testsuite name="UNIR.app.BasicArithmetic.CalcSumAndCountAllNumbersDivBy_2_Or_7Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-08T19:33:11" hostname="vicbocanegra-virtual-machine" time="0.005">
   <properties/>
-  <testcase name="testCalcSumAndCountAllNumbersDivBy_2_Or_7_Tuple()" classname="UNIR.app.BasicArithmetic.CalcSumAndCountAllNumbersDivBy_2_Or_7Test" time="0.015"/>
+  <testcase name="testCalcSumAndCountAllNumbersDivBy_2_Or_7_Tuple()" classname="UNIR.app.BasicArithmetic.CalcSumAndCountAllNumbersDivBy_2_Or_7Test" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
