@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UNIR.app.PrimeNumberPairs.PrimeNumberPairsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-11T03:57:07" hostname="vicbocanegra-virtual-machine" time="0.004">
+<testsuite name="UNIR.app.PrimeNumberPairs.PrimeNumberPairsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-20T03:50:19" hostname="vicbocanegra-virtual-machine" time="0.004">
   <properties/>
-  <testcase name="[1] UNIR.app.PrimeNumberPairs.PrimeNumberPairsTest$TestData@7d322cad" classname="UNIR.app.PrimeNumberPairs.PrimeNumberPairsTest" time="0.004"/>
+  <testcase name="[1] UNIR.app.PrimeNumberPairs.PrimeNumberPairsTest$TestData@4f49f6af" classname="UNIR.app.PrimeNumberPairs.PrimeNumberPairsTest" time="0.002"/>
+  <testcase name="[2] UNIR.app.PrimeNumberPairs.PrimeNumberPairsTest$TestData@503f91c3" classname="UNIR.app.PrimeNumberPairs.PrimeNumberPairsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

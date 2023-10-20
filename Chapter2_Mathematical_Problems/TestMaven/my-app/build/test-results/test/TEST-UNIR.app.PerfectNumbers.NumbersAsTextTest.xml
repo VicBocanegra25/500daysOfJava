@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UNIR.app.PerfectNumbers.NumbersAsTextTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-11T03:57:07" hostname="vicbocanegra-virtual-machine" time="0.107">
+<testsuite name="UNIR.app.PerfectNumbers.NumbersAsTextTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-20T03:50:19" hostname="vicbocanegra-virtual-machine" time="0.113">
   <properties/>
-  <testcase name="[1] 1000, [6, 28, 496]" classname="UNIR.app.PerfectNumbers.NumbersAsTextTest" time="0.029"/>
-  <testcase name="[2] 10000, [6, 28, 496, 8128]" classname="UNIR.app.PerfectNumbers.NumbersAsTextTest" time="0.074"/>
+  <testcase name="[1] 1000, [6, 28, 496]" classname="UNIR.app.PerfectNumbers.NumbersAsTextTest" time="0.032"/>
+  <testcase name="[2] 10000, [6, 28, 496, 8128]" classname="UNIR.app.PerfectNumbers.NumbersAsTextTest" time="0.077"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
